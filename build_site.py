@@ -43,14 +43,14 @@ def page(
 # --- define all pages from Round 3 union + mega appendix ---
 page(
     "index",
-    "Phyllux",
+    "Phyllux Tech",
     "Missions for flourishing people who can trust. Local first craft, honest tools, and a public door into apps, books, recovery education, Eco-Earn, shops, and institutional literacy.",
     """
     <div class="tile-grid">
       <a class="tile" href="recovery/"><img src="assets/org-hero-recovery.png" alt=""/><span>Recovery</span><em>Non clinical support tools</em></a>
       <a class="tile" href="parkinsons/"><img src="assets/org-hero-parkinsons.png" alt=""/><span>Parkinsons support education</span><em>Family and caregiver resources</em></a>
       <a class="tile" href="eco-earn/"><img src="assets/org-hero-eco-earn.png" alt=""/><span>Eco-Earn</span><em>Recycling gamification</em></a>
-      <a class="tile" href="books/"><img src="assets/org-hero-books.png" alt=""/><span>Books</span><em>Phyllux and Sproule Lit shelf</em></a>
+      <a class="tile" href="books/"><img src="assets/org-hero-books.png" alt=""/><span>Books</span><em>Phyllux Tech and Sproule Lit shelf</em></a>
       <a class="tile" href="suite/"><img src="assets/org-hero-apps.png" alt=""/><span>Quanton Suite</span><em>One mega app on phyllux.app</em></a>
       <a class="tile" href="lab/"><img src="assets/org-hero-lab.png" alt=""/><span>Lab</span><em>3D print, CAD, prototyping</em></a>
       <a class="tile" href="studio/"><img src="assets/org-hero-studio.png" alt=""/><span>Studio</span><em>Install, mix, master</em></a>
@@ -133,7 +133,7 @@ page("eco-earn/partners", "Eco-Earn partners", "City and brand partner intake.",
 page("eco-earn/leaderboards", "Leaderboards", "Local challenges and friendly competition.", "<p>Opt in leaderboards. No shaming mechanics.</p>", "org-hero-eco-earn.png")
 page("eco-earn/kits", "Eco-Earn kits", "Physical starter kits, bins, and tags.", "<p>Household and school kits that plug into the digital loop.</p>", "org-hero-eco-earn.png")
 
-page("books", "Books", "Phyllux publishing and Sproule Lit. Primers, journals, fiction, education booklets.",
+page("books", "Books", "Phyllux Tech publishing and Sproule Lit. Primers, journals, fiction, education booklets.",
      """
      <p>Browse and buy on <a href="https://phyllux.com">phyllux.com</a> (Sproule Lit storefront). This page is the mission bridge.</p>
      <ul>
@@ -157,7 +157,7 @@ page("apps", "Apps", "Quantonics ships as Quanton Suite on phyllux.app. One mega
        <li><a href="https://phyllux.app/suite/">Quanton Suite</a> is the product</li>
        <li>Module map lives inside Suite</li>
        <li>Desktop and iPhone parity later from the same core</li>
-       <li><a href="https://phyllux.app/ecosystem/">Ecosystem map</a> for the wider Phyllux circle</li>
+       <li><a href="https://phyllux.app/ecosystem/">Ecosystem map</a> for the wider Phyllux Tech circle</li>
      </ul>
      """,
      "org-hero-apps.png")
@@ -248,7 +248,7 @@ page("community", "Community", "Forums, events, Chautauqua, workshops, volunteer
      </ul>
      """,
      "org-hero-community.png")
-page("chautauqua", "Chautauqua", "Events and gatherings in the Quantonics / Phyllux spirit.", "<p>Tickets and sponsors. Edmonton first.</p>", "org-hero-community.png")
+page("chautauqua", "Chautauqua", "Events and gatherings in the Quantonics / Phyllux Tech spirit.", "<p>Tickets and sponsors. Edmonton first.</p>", "org-hero-community.png")
 page("events", "Events", "Calendar of workshops and meetups.", "<p>Public calendar soft launches with the first workshop slate.</p>", "org-hero-community.png")
 page("workshops", "Workshops", "Paid introductions and applied workshops.", "<p>Quantonics literacy, Eco-Earn, maker lab, studio craft.</p>", "org-hero-community.png")
 page("volunteer", "Volunteer", "Volunteer roles across missions.", "<p>Community moderation, event help, Eco-Earn outreach.</p>", "org-hero-community.png")
@@ -280,7 +280,7 @@ page("about", "About", "Story, Edmonton base, team.",
      "<p>David E. Sproule · Edmonton, Alberta. Phyllux Technologies. Co founder work with Paul Chartier on client lanes. Local first. Honest research. Pattern grounded technology.</p>", "org-hero-edmonton.png")
 page("contact", "Contact", "Contact and partnership form.",
      """
-     <p>Email <a href="mailto:hello@phyllux.org">hello@phyllux.org</a> (forward to be wired) or use your existing Phyllux contact channel.</p>
+     <p>Email <a href="mailto:hello@phyllux.org">hello@phyllux.org</a> (forward to be wired) or use your existing Phyllux Tech contact channel.</p>
      <p>Useful subjects: Suite waitlist · Eco-Earn partner · Lab booking · Studio install · School pilot · Press</p>
      """,
      "org-hero-home.png")
@@ -322,7 +322,7 @@ page("shop", "Shop", "Merch and kits shop bridge.", "<p>Points to merch and Eco-
 page("hire", "Hire", "Careers alias.", "<p>See <a href=\"../careers/\">careers</a>.</p>", "org-hero-careers.png")
 page("it", "IT services", "IT services alias into Build and IT.", "<p>See <a href=\"../build-it/\">Build and IT</a>.</p>", "org-hero-build-it.png")
 page("web", "Web design", "Website agency intake.", "<p>SMB sites, care plans, accessibility. Contact with subject Web.</p>", "org-hero-build-it.png")
-page("games", "Games", "Game design lane.", "<p>First party Phyllux / Quantonics games and client contracts.</p>", "org-hero-apps.png")
+page("games", "Games", "Game design lane.", "<p>First party Phyllux Tech / Quantonics games and client contracts.</p>", "org-hero-apps.png")
 page("pcs", "PCs", "Custom PC shop.", "<p>Creator and AI workstation builds. See Build and IT.</p>", "org-hero-build-it.png")
 page("image-gallery", "Image gallery", "Visual mission wall.",
      """
@@ -497,7 +497,7 @@ def render(page_data: dict) -> str:
 </head>
 <body>
 <header class="site-header"><div class="header-inner">
-  <a class="brand" href="{home_href}">Phyllux</a>
+  <a class="brand" href="{home_href}">Phyllux Tech</a>
   <nav class="nav">{nav}</nav>
 </div></header>
 <main class="wrap">
