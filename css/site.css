@@ -30,12 +30,13 @@ a { color: var(--teal); }
   border-bottom: 1px solid var(--line);
 }
 .header-inner { max-width: 1080px; margin: 0 auto; padding: .75rem 1.15rem; display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
-.brand { font-family: Fraunces, Georgia, serif; font-weight: 700; font-size: 1.35rem; color: var(--teal-deep); text-decoration: none; }
+.brand { font-family: Fraunces, Georgia, serif; font-weight: 700; font-size: 1.35rem; color: var(--teal-deep); text-decoration: none; display: inline-flex; align-items: center; gap: 0.45rem; }
+.brand-mark { width: 32px; height: 32px; border-radius: 50%; display: block; }
 .nav { display: flex; flex-wrap: wrap; gap: .55rem .85rem; }
 .nav a { text-decoration: none; color: var(--muted); font-size: .92rem; font-weight: 600; }
 .nav a:hover { color: var(--teal); }
-.hero { margin: 1.2rem 0 1.5rem; border-radius: 18px; overflow: hidden; box-shadow: 0 18px 40px rgba(20,33,43,.16); position: relative; }
-.hero img { width: 100%; display: block; max-height: 420px; object-fit: cover; }
+.hero { margin: 1.2rem 0 1.5rem; border-radius: 18px; overflow: hidden; box-shadow: 0 18px 40px rgba(20,33,43,.16); position: relative; background: #e8e0d2; }
+.hero img { width: 100%; display: block; height: auto; max-height: none; object-fit: contain; object-position: center top; }
 .hero-caption {
   position: absolute; left: 1rem; bottom: 1rem;
   background: rgba(10,69,71,.88); color: #fff; padding: .55rem .9rem; border-radius: 999px; font-weight: 600;
